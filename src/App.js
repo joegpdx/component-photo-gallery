@@ -32,7 +32,7 @@ export default class App extends Component {
         <Header />
         <main>
           {/* {JSON.stringify(this.state.data)} */}
-          <Select handleChangeCallBack={handleChange} handleChangeCallBackHorns={handleHornChange} />
+          <Select handleChangeCallBackSelect={handleChange} handleChangeCallBackHorns={handleHornChange} />
           <ImageList selected={this.state.selected} horns={this.state.horns} />
         </main>
       </div>
